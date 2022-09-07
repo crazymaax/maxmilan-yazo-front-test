@@ -1,14 +1,19 @@
-import ProjectIcon from "../../../atoms/Table/ProjectIcon";
+import ProjectImage from "../../../atoms/Table/ProjectImage";
 import Text from "../../../atoms/Text";
 
 import { Container } from "./styles";
 
-const ProjectName = () => {
+interface IProjectName {
+    name: string;
+    src: string;
+}
+
+const ProjectName = ({ name, src }: IProjectName) => {
 
     return (
         <Container>
-            <ProjectIcon />
-            <Text text="Pokedex"/>
+            <ProjectImage src={src}/>
+            <Text text={name} />
         </Container>
     )
 }
