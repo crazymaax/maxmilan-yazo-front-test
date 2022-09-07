@@ -2,16 +2,16 @@ import StatusIndicator from "../../../atoms/Table/StatusIndicator";
 import Text from "../../../atoms/Text";
 import { Container } from "./styles";
 
-interface IProjectStatus {
-    status: "development" | "done";
+interface IProjectStatusProps {
+    status: string;
 }
 
-const ProjectStatus = ({ status }: IProjectStatus) => {
+const ProjectStatus = ({ status }: IProjectStatusProps) => {
 
     return (
         <Container>
             <StatusIndicator status={status} />
-            <Text text="Desenvolvimento" />
+            <Text text={status} />
         </Container>
     )
 }
