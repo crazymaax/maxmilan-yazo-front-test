@@ -1,6 +1,6 @@
 import { Icon } from "./style";
 
-const ProjectIcon = () => {
+const ProjectImage = () => {
 
     return (
         <Icon>
@@ -10,4 +10,4 @@ const ProjectIcon = () => {
     )
 }
 
-export default ProjectIcon;
+export default ProjectImage;
