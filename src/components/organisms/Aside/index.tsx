@@ -1,14 +1,12 @@
 import Image from "../../atoms/Image";
-
-import DashboardButton from "../../molecules/AsideButtons/DashboardButton";
-import MyProjectsButton from "../../molecules/AsideButtons/MyProjectsButton";
-import MembersButton from "../../molecules/AsideButtons/MembersButton";
-import ConfigurationButton from "../../molecules/AsideButtons/ConfigurationButton";
+import DashboardButton from "../../atoms/Buttons/DashboardButton";
+import MyProjectsButton from "../../atoms/Buttons/MyProjectsButton";
+import MembersButton from "../../atoms/Buttons/MembersButton";
+import ConfigurationButton from "../../atoms/Buttons/ConfigurationButton";
+import ExitButton from "../../atoms/Buttons/ExitButton";
 
 import { AsideContainer } from "./styles"
 import AsideImage from "../../../assets/AsideImage.png"
-import ExitButton from "../../molecules/AsideButtons/ExitButton";
-
 
 const Aside = () => {
 
@@ -18,20 +16,20 @@ const Aside = () => {
 
             <ul>
                 <li>
-                    <DashboardButton text="Dashboard" />
+                    <DashboardButton />
                 </li>
                 <li>
-                    <MyProjectsButton text="Meus Projetos" />
+                    <MyProjectsButton />
                 </li>
                 <li>
-                    <MembersButton text="Membros" />
+                    <MembersButton />
                 </li>
                 <li>
-                    <ConfigurationButton text="Configurações" />
+                    <ConfigurationButton />
                 </li>
             </ul>
 
-            <ExitButton text="Sair"/>
+            <ExitButton />
         </AsideContainer>
     )
 }
