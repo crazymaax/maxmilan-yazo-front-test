@@ -22,6 +22,15 @@
 - React Router-dom
 
 #
+
+## ❓ Sobre
+
+A proposta do desafio era a organização de código em uma página estática, onde não se consome nenhum dado externo por meio de uma API.
+Foi escolhido o design de projeto como **Atomic Design** dividindo em componentes do tipo Átomo, Moléculas, Organismos, Templates e Páginas.
+
+Para a inserção de dados na página foi criado um arquivo .json que está localizado juntamente com o componente de página que contém todos os dados dos projetos, sendo assim um arquivo para mera ilustração de como a aplicação funcionaria sem a utilização de informações externas.
+#
+
 ## 🌐 Acesse o site
 
 Para acessar o site, basta clicar neste <a href="https://yazo-front-test-git-main-crazymaax.vercel.app/">Link</a>
