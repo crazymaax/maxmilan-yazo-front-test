@@ -4,7 +4,7 @@ import { Image } from "./styles";
 const DotsIcon = () => {
 
   return (
-    <Image src={DotsIconImage} />
+    <Image src={DotsIconImage} title="Configurações"/>
   );
 }
 
