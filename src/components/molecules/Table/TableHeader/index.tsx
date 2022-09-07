@@ -1,5 +1,6 @@
 import CheckBox from "../../../atoms/CheckBox";
 import Text from "../../../atoms/Text";
+
 import { Container } from "./styles";
 
 const TableHeader = () => {
