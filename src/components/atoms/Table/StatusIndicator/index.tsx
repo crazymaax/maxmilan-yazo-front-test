@@ -1,17 +1,17 @@
 import { StatusPoint } from "./styles";
 
 interface IStatusIndicatorProps {
-    status: "development" | "done";
+    status: string;
 }
 
 const StatusIndicator = ({ status }: IStatusIndicatorProps) => {
 
     return (
         <>
-            {status === "development" ? (
-                <StatusPoint status="development" />
+            {status === "Desenvolvimento" ? (
+                <StatusPoint status="Desenvolvimento" />
             ) : (
-                <StatusPoint status="done" />
+                <StatusPoint status="Concluído" />
             )}
         </>
     )
